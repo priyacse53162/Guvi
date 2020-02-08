@@ -1,0 +1,7 @@
+n=int(input())
+i=1
+c=1
+while i<=12:
+	c=n*i
+	print(i,"*",n,"=",c)
+	i+=1
