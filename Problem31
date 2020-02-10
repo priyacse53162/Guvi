@@ -1,0 +1,9 @@
+n=int(input())
+a=str(n)
+c=[]
+for i in range(0,len(a)):
+	if(a[i]=="0"):
+		c.append("1")
+	else:
+		c.append("0")
+print(''.join(c))
